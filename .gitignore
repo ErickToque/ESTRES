@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+venv_estres/
+env/
+
+# Data (grande, no subir)
+data/
+*.csv
+*.zip
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Resultados intermedios (no necesarios en GitHub)
+results/*.csv
+!results/tables/*.csv
